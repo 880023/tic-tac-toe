@@ -12,7 +12,7 @@ let game = document.querySelector('.game'),
           stroke-linecap="round" />
      <line class="second" x1="100" y1="15" x2="15" y2="100" stroke="red" stroke-width="10"
           stroke-linecap="round" />
-     </svg>`;
+     </svg>`
 
 function stepCross(target) {
      target.innerHTML = cross;
